@@ -46,4 +46,3 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
 
-replace github.com/wailsapp/wails/v3 => C:\Users\Nadia\go\src\wails\v3
