@@ -27,7 +27,7 @@ type IPSource struct {
 }
 
 var DefaultSources = []IPSource{
-	{ID: "official", Name: "Cloudflare Official", URL: "https://www.cloudflare.com/ips-v4/", Type: SourceCIDR, Enabled: true},
+	{ID: "official", Name: "Cloudflare Official", URL: "https://raw.githubusercontent.com/aboly80000/NovaRadar/refs/heads/main/ip.txt", Type: SourceCIDR, Enabled: true},
 	{ID: "cm", Name: "CM List", URL: "https://raw.githubusercontent.com/cmliu/cmliu/main/CF-CIDR.txt", Type: SourceCIDR, Enabled: false},
 	{ID: "as13335", Name: "AS13335 (Cloudflare)", URL: "https://raw.githubusercontent.com/ipverse/asn-ip/master/as/13335/ipv4-aggregated.txt", Type: SourceCIDR, Enabled: false},
 	{ID: "as209242", Name: "AS209242 (Cloudflare)", URL: "https://raw.githubusercontent.com/ipverse/asn-ip/master/as/209242/ipv4-aggregated.txt", Type: SourceCIDR, Enabled: false},
